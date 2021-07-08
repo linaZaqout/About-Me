@@ -1,0 +1,40 @@
+.WorkOut{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.section{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    padding-bottom: 30px;
+    margin: 30px;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 #110f0e59 , 0 6px 20px 0 #110f0e59 ;
+    border-radius: 10px;
+    transition: 1s;
+    background-color: #FFE8D6;
+}
+.section img{
+    width: 230px;
+    opacity: 0.3;
+    z-index: 1;
+}
+.ul{
+    height: 640px;
+    background-color: #272626 ;
+}
+.section p{
+    font-size: 50px;
+    font-family: monospace;
+    margin-top: -130px;
+    position: absolute;
+    margin-left: 35px;
+}
+.section:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4) , 0 6px 20px 0 rgba(255, 232, 214, 0.651);
+    transform: scale(1.06);
+}
